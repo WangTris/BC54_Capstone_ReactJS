@@ -1,10 +1,18 @@
+// import logo from './logo.svg';
 import "./App.css"
+import { BrowserRouter } from "react-router-dom"
+import Router from "./routes/Router"
+import { LoadingProvider } from "./contexts/loading/LoadingContext"
+import BackToTopButton from "components/BackToTopButton"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <BrowserRouter>
+      <LoadingProvider>
+        <Router />
+        <BackToTopButton />
+      </LoadingProvider>
+    </BrowserRouter>
   )
 }
 
