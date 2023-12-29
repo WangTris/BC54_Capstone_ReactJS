@@ -1,0 +1,24 @@
+.upPerCase {
+  text-transform: uppercase;
+}
+
+.tam {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.card-body button:hover {
+  background-color: #fff;
+  border: 1px solid;
+  color: green;
+}
+.card-body h5 {
+  font-size: 1.1rem;
+}
+.khung{
+    border: none;
+}
+.khung:hover {
+  transform: translateY(-0.5rem);
+  transition: 0.3s ease;
+}

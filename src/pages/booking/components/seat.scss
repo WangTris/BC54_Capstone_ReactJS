@@ -1,0 +1,18 @@
+.seat {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .seat {
+    width: 35px;
+    height: 35px;
+  }
+}
+// @media screen and (max-width: 992px) {
+//   .seat {
+//     width: 40px;
+//     height: 40px;
+//   }
+// }
